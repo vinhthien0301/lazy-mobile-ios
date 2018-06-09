@@ -1,0 +1,791 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D9B19D6915C42B5AA9CF853 /* Pods_Lazy_MiningTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC2F8BE2DAFAE358E20B2EE /* Pods_Lazy_MiningTests.framework */; };
+		6126C2E1E0C90708930408CF /* Pods_Lazy_Mining.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4AD9576D9D9C7C3CADA30E4 /* Pods_Lazy_Mining.framework */; };
+		82E53B51205D41C4003EB407 /* ForgotPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82E53B50205D41C4003EB407 /* ForgotPasswordViewController.swift */; };
+		840195C920CC35990020FF4E /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840195C820CC35990020FF4E /* Environment.swift */; };
+		84472D71204E45020049B182 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84472D70204E45020049B182 /* AppDelegate.swift */; };
+		84472D73204E45020049B182 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84472D72204E45020049B182 /* FirstViewController.swift */; };
+		84472D75204E45020049B182 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84472D74204E45020049B182 /* SecondViewController.swift */; };
+		84472D78204E45020049B182 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84472D76204E45020049B182 /* Main.storyboard */; };
+		84472D7A204E45020049B182 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84472D79204E45020049B182 /* Assets.xcassets */; };
+		84472D7D204E45020049B182 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84472D7B204E45020049B182 /* LaunchScreen.storyboard */; };
+		84472D88204E45020049B182 /* Lazy_MiningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84472D87204E45020049B182 /* Lazy_MiningTests.swift */; };
+		84472D93204E45020049B182 /* Lazy_MiningUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84472D92204E45020049B182 /* Lazy_MiningUITests.swift */; };
+		8496F2EA204EDB3100DE3BBE /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496F2E9204EDB3100DE3BBE /* ApiService.swift */; };
+		8496F2EE204EE92500DE3BBE /* Authentication.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8496F2ED204EE92500DE3BBE /* Authentication.storyboard */; };
+		8496F2F0204F6AAC00DE3BBE /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496F2EF204F6AAC00DE3BBE /* LoginViewController.swift */; };
+		8496F2F2204F6CA500DE3BBE /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496F2F1204F6CA500DE3BBE /* RegisterViewController.swift */; };
+		8496F2F4204FAD8B00DE3BBE /* LocalStorageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496F2F3204FAD8B00DE3BBE /* LocalStorageService.swift */; };
+		8496F2F620501E7600DE3BBE /* MinerTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8496F2F520501E7600DE3BBE /* MinerTableCell.swift */; };
+		84CBA9CA205294C600AA0EF9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 84CBA9C9205294C600AA0EF9 /* GoogleService-Info.plist */; };
+		FD9B99B7EFF1F9A8ABF8F473 /* Pods_Lazy_MiningUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C124559FB7886D20372550C /* Pods_Lazy_MiningUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84472D84204E45020049B182 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84472D65204E45010049B182 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84472D6C204E45010049B182;
+			remoteInfo = "Lazy Mining";
+		};
+		84472D8F204E45020049B182 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84472D65204E45010049B182 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84472D6C204E45010049B182;
+			remoteInfo = "Lazy Mining";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1AC2F8BE2DAFAE358E20B2EE /* Pods_Lazy_MiningTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lazy_MiningTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30CF4ACEB60F3821A16D7291 /* Pods-Lazy Mining.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lazy Mining.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lazy Mining/Pods-Lazy Mining.debug.xcconfig"; sourceTree = "<group>"; };
+		3EC0A2D2DE9E5D5D2F303573 /* Pods-Lazy MiningTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lazy MiningTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lazy MiningTests/Pods-Lazy MiningTests.debug.xcconfig"; sourceTree = "<group>"; };
+		60F64CF3114FE76F5BE29E0A /* Pods-Lazy Mining.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lazy Mining.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lazy Mining/Pods-Lazy Mining.release.xcconfig"; sourceTree = "<group>"; };
+		7C124559FB7886D20372550C /* Pods_Lazy_MiningUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lazy_MiningUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82E53B50205D41C4003EB407 /* ForgotPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewController.swift; sourceTree = "<group>"; };
+		840195C620CC2FA90020FF4E /* Development.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Development.xcconfig; sourceTree = "<group>"; };
+		840195C720CC2FC60020FF4E /* Production.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Production.xcconfig; sourceTree = "<group>"; };
+		840195C820CC35990020FF4E /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		84472D6D204E45010049B182 /* Lazy Mining.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lazy Mining.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84472D70204E45020049B182 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84472D72204E45020049B182 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		84472D74204E45020049B182 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		84472D77204E45020049B182 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84472D79204E45020049B182 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84472D7C204E45020049B182 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84472D7E204E45020049B182 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84472D83204E45020049B182 /* Lazy MiningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lazy MiningTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84472D87204E45020049B182 /* Lazy_MiningTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lazy_MiningTests.swift; sourceTree = "<group>"; };
+		84472D89204E45020049B182 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84472D8E204E45020049B182 /* Lazy MiningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Lazy MiningUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84472D92204E45020049B182 /* Lazy_MiningUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lazy_MiningUITests.swift; sourceTree = "<group>"; };
+		84472D94204E45020049B182 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		847F196920528E0C000974AD /* Lazy Mining.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Lazy Mining.entitlements"; sourceTree = "<group>"; };
+		8496F2E9204EDB3100DE3BBE /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		8496F2ED204EE92500DE3BBE /* Authentication.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Authentication.storyboard; sourceTree = "<group>"; };
+		8496F2EF204F6AAC00DE3BBE /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8496F2F1204F6CA500DE3BBE /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		8496F2F3204FAD8B00DE3BBE /* LocalStorageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalStorageService.swift; sourceTree = "<group>"; };
+		8496F2F520501E7600DE3BBE /* MinerTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinerTableCell.swift; sourceTree = "<group>"; };
+		84CBA9C9205294C600AA0EF9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B47410BE421A05354AC312FD /* Pods-Lazy MiningTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lazy MiningTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lazy MiningTests/Pods-Lazy MiningTests.release.xcconfig"; sourceTree = "<group>"; };
+		B4AD9576D9D9C7C3CADA30E4 /* Pods_Lazy_Mining.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lazy_Mining.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF1C80BDA4BFFFBC91B0954E /* Pods-Lazy MiningUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lazy MiningUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Lazy MiningUITests/Pods-Lazy MiningUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CEE88CCAC3CEB0B12DAA3981 /* Pods-Lazy MiningUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lazy MiningUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Lazy MiningUITests/Pods-Lazy MiningUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84472D6A204E45010049B182 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6126C2E1E0C90708930408CF /* Pods_Lazy_Mining.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84472D80204E45020049B182 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D9B19D6915C42B5AA9CF853 /* Pods_Lazy_MiningTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84472D8B204E45020049B182 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD9B99B7EFF1F9A8ABF8F473 /* Pods_Lazy_MiningUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B66D860D748CB1BE3E63D6A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				30CF4ACEB60F3821A16D7291 /* Pods-Lazy Mining.debug.xcconfig */,
+				60F64CF3114FE76F5BE29E0A /* Pods-Lazy Mining.release.xcconfig */,
+				3EC0A2D2DE9E5D5D2F303573 /* Pods-Lazy MiningTests.debug.xcconfig */,
+				B47410BE421A05354AC312FD /* Pods-Lazy MiningTests.release.xcconfig */,
+				CEE88CCAC3CEB0B12DAA3981 /* Pods-Lazy MiningUITests.debug.xcconfig */,
+				BF1C80BDA4BFFFBC91B0954E /* Pods-Lazy MiningUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		84472D64204E45010049B182 = {
+			isa = PBXGroup;
+			children = (
+				84472D6F204E45020049B182 /* Lazy Mining */,
+				84472D86204E45020049B182 /* Lazy MiningTests */,
+				84472D91204E45020049B182 /* Lazy MiningUITests */,
+				84472D6E204E45010049B182 /* Products */,
+				5B66D860D748CB1BE3E63D6A /* Pods */,
+				F975E64E7D6BB59BD3290421 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84472D6E204E45010049B182 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84472D6D204E45010049B182 /* Lazy Mining.app */,
+				84472D83204E45020049B182 /* Lazy MiningTests.xctest */,
+				84472D8E204E45020049B182 /* Lazy MiningUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84472D6F204E45020049B182 /* Lazy Mining */ = {
+			isa = PBXGroup;
+			children = (
+				84CBA9C9205294C600AA0EF9 /* GoogleService-Info.plist */,
+				847F196920528E0C000974AD /* Lazy Mining.entitlements */,
+				84472D70204E45020049B182 /* AppDelegate.swift */,
+				84472D72204E45020049B182 /* FirstViewController.swift */,
+				84472D74204E45020049B182 /* SecondViewController.swift */,
+				84472D76204E45020049B182 /* Main.storyboard */,
+				84472D79204E45020049B182 /* Assets.xcassets */,
+				84472D7B204E45020049B182 /* LaunchScreen.storyboard */,
+				84472D7E204E45020049B182 /* Info.plist */,
+				8496F2E9204EDB3100DE3BBE /* ApiService.swift */,
+				8496F2ED204EE92500DE3BBE /* Authentication.storyboard */,
+				8496F2EF204F6AAC00DE3BBE /* LoginViewController.swift */,
+				8496F2F1204F6CA500DE3BBE /* RegisterViewController.swift */,
+				8496F2F3204FAD8B00DE3BBE /* LocalStorageService.swift */,
+				8496F2F520501E7600DE3BBE /* MinerTableCell.swift */,
+				82E53B50205D41C4003EB407 /* ForgotPasswordViewController.swift */,
+				840195C620CC2FA90020FF4E /* Development.xcconfig */,
+				840195C720CC2FC60020FF4E /* Production.xcconfig */,
+				840195C820CC35990020FF4E /* Environment.swift */,
+			);
+			path = "Lazy Mining";
+			sourceTree = "<group>";
+		};
+		84472D86204E45020049B182 /* Lazy MiningTests */ = {
+			isa = PBXGroup;
+			children = (
+				84472D87204E45020049B182 /* Lazy_MiningTests.swift */,
+				84472D89204E45020049B182 /* Info.plist */,
+			);
+			path = "Lazy MiningTests";
+			sourceTree = "<group>";
+		};
+		84472D91204E45020049B182 /* Lazy MiningUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84472D92204E45020049B182 /* Lazy_MiningUITests.swift */,
+				84472D94204E45020049B182 /* Info.plist */,
+			);
+			path = "Lazy MiningUITests";
+			sourceTree = "<group>";
+		};
+		F975E64E7D6BB59BD3290421 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4AD9576D9D9C7C3CADA30E4 /* Pods_Lazy_Mining.framework */,
+				1AC2F8BE2DAFAE358E20B2EE /* Pods_Lazy_MiningTests.framework */,
+				7C124559FB7886D20372550C /* Pods_Lazy_MiningUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84472D6C204E45010049B182 /* Lazy Mining */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84472D97204E45020049B182 /* Build configuration list for PBXNativeTarget "Lazy Mining" */;
+			buildPhases = (
+				6327E782314F09057C50D32A /* [CP] Check Pods Manifest.lock */,
+				84472D69204E45010049B182 /* Sources */,
+				84472D6A204E45010049B182 /* Frameworks */,
+				84472D6B204E45010049B182 /* Resources */,
+				1ED90E98BB49CF90FF9BFFE8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lazy Mining";
+			productName = "Lazy Mining";
+			productReference = 84472D6D204E45010049B182 /* Lazy Mining.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84472D82204E45020049B182 /* Lazy MiningTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84472D9A204E45020049B182 /* Build configuration list for PBXNativeTarget "Lazy MiningTests" */;
+			buildPhases = (
+				FAB5889826B670065EDCC264 /* [CP] Check Pods Manifest.lock */,
+				84472D7F204E45020049B182 /* Sources */,
+				84472D80204E45020049B182 /* Frameworks */,
+				84472D81204E45020049B182 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84472D85204E45020049B182 /* PBXTargetDependency */,
+			);
+			name = "Lazy MiningTests";
+			productName = "Lazy MiningTests";
+			productReference = 84472D83204E45020049B182 /* Lazy MiningTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84472D8D204E45020049B182 /* Lazy MiningUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84472D9D204E45020049B182 /* Build configuration list for PBXNativeTarget "Lazy MiningUITests" */;
+			buildPhases = (
+				B63F78B8003117E74D02648D /* [CP] Check Pods Manifest.lock */,
+				84472D8A204E45020049B182 /* Sources */,
+				84472D8B204E45020049B182 /* Frameworks */,
+				84472D8C204E45020049B182 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84472D90204E45020049B182 /* PBXTargetDependency */,
+			);
+			name = "Lazy MiningUITests";
+			productName = "Lazy MiningUITests";
+			productReference = 84472D8E204E45020049B182 /* Lazy MiningUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84472D65204E45010049B182 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Admin;
+				TargetAttributes = {
+					84472D6C204E45010049B182 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.SafariKeychain = {
+								enabled = 1;
+							};
+						};
+					};
+					84472D82204E45020049B182 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84472D6C204E45010049B182;
+					};
+					84472D8D204E45020049B182 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84472D6C204E45010049B182;
+					};
+				};
+			};
+			buildConfigurationList = 84472D68204E45010049B182 /* Build configuration list for PBXProject "Lazy Mining" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84472D64204E45010049B182;
+			productRefGroup = 84472D6E204E45010049B182 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84472D6C204E45010049B182 /* Lazy Mining */,
+				84472D82204E45020049B182 /* Lazy MiningTests */,
+				84472D8D204E45020049B182 /* Lazy MiningUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84472D6B204E45010049B182 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8496F2EE204EE92500DE3BBE /* Authentication.storyboard in Resources */,
+				84472D7D204E45020049B182 /* LaunchScreen.storyboard in Resources */,
+				84CBA9CA205294C600AA0EF9 /* GoogleService-Info.plist in Resources */,
+				84472D7A204E45020049B182 /* Assets.xcassets in Resources */,
+				84472D78204E45020049B182 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84472D81204E45020049B182 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84472D8C204E45020049B182 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1ED90E98BB49CF90FF9BFFE8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Lazy Mining/Pods-Lazy Mining-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Branch/Branch.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Branch.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Lazy Mining/Pods-Lazy Mining-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6327E782314F09057C50D32A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lazy Mining-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B63F78B8003117E74D02648D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lazy MiningUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAB5889826B670065EDCC264 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lazy MiningTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84472D69204E45010049B182 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84472D75204E45020049B182 /* SecondViewController.swift in Sources */,
+				84472D71204E45020049B182 /* AppDelegate.swift in Sources */,
+				8496F2F620501E7600DE3BBE /* MinerTableCell.swift in Sources */,
+				8496F2EA204EDB3100DE3BBE /* ApiService.swift in Sources */,
+				8496F2F2204F6CA500DE3BBE /* RegisterViewController.swift in Sources */,
+				82E53B51205D41C4003EB407 /* ForgotPasswordViewController.swift in Sources */,
+				8496F2F4204FAD8B00DE3BBE /* LocalStorageService.swift in Sources */,
+				8496F2F0204F6AAC00DE3BBE /* LoginViewController.swift in Sources */,
+				84472D73204E45020049B182 /* FirstViewController.swift in Sources */,
+				840195C920CC35990020FF4E /* Environment.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84472D7F204E45020049B182 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84472D88204E45020049B182 /* Lazy_MiningTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84472D8A204E45020049B182 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84472D93204E45020049B182 /* Lazy_MiningUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84472D85204E45020049B182 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84472D6C204E45010049B182 /* Lazy Mining */;
+			targetProxy = 84472D84204E45020049B182 /* PBXContainerItemProxy */;
+		};
+		84472D90204E45020049B182 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84472D6C204E45010049B182 /* Lazy Mining */;
+			targetProxy = 84472D8F204E45020049B182 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84472D76204E45020049B182 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84472D77204E45020049B182 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84472D7B204E45020049B182 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84472D7C204E45020049B182 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84472D95204E45020049B182 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 840195C620CC2FA90020FF4E /* Development.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84472D96204E45020049B182 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 840195C720CC2FC60020FF4E /* Production.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84472D98204E45020049B182 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30CF4ACEB60F3821A16D7291 /* Pods-Lazy Mining.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Lazy Mining/Lazy Mining.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UWSKF3K8YQ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Lazy\\ Mining/FCM",
+					"$(PROJECT_DIR)/Lazy\\ Mining/FCM",
+					"$(PROJECT_DIR)/Lazy\\ Mining/FCM",
+					"$(PROJECT_DIR)/Lazy\\ Mining/FCM",
+					"$(PROJECT_DIR)/Lazy\\ Mining/FCM",
+					"$(PROJECT_DIR)/Lazy\\ Mining/FCM",
+					"$(PROJECT_DIR)/Lazy\\ Mining/FCM",
+					"$(PROJECT_DIR)/Lazy\\ Mining/FCM",
+				);
+				INFOPLIST_FILE = "Lazy Mining/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lazymining.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84472D99204E45020049B182 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60F64CF3114FE76F5BE29E0A /* Pods-Lazy Mining.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Lazy Mining/Lazy Mining.entitlements";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UWSKF3K8YQ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Lazy\\ Mining/FCM",
+					"$(PROJECT_DIR)/Lazy\\ Mining/FCM",
+					"$(PROJECT_DIR)/Lazy\\ Mining/FCM",
+					"$(PROJECT_DIR)/Lazy\\ Mining/FCM",
+					"$(PROJECT_DIR)/Lazy\\ Mining/FCM",
+					"$(PROJECT_DIR)/Lazy\\ Mining/FCM",
+					"$(PROJECT_DIR)/Lazy\\ Mining/FCM",
+					"$(PROJECT_DIR)/Lazy\\ Mining/FCM",
+				);
+				INFOPLIST_FILE = "Lazy Mining/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lazymining.app;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84472D9B204E45020049B182 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3EC0A2D2DE9E5D5D2F303573 /* Pods-Lazy MiningTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UWSKF3K8YQ;
+				INFOPLIST_FILE = "Lazy MiningTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lazymining.Lazy-MiningTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lazy Mining.app/Lazy Mining";
+			};
+			name = Debug;
+		};
+		84472D9C204E45020049B182 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B47410BE421A05354AC312FD /* Pods-Lazy MiningTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UWSKF3K8YQ;
+				INFOPLIST_FILE = "Lazy MiningTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lazymining.Lazy-MiningTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Lazy Mining.app/Lazy Mining";
+			};
+			name = Release;
+		};
+		84472D9E204E45020049B182 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEE88CCAC3CEB0B12DAA3981 /* Pods-Lazy MiningUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UWSKF3K8YQ;
+				INFOPLIST_FILE = "Lazy MiningUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lazymining.Lazy-MiningUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lazy Mining";
+			};
+			name = Debug;
+		};
+		84472D9F204E45020049B182 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF1C80BDA4BFFFBC91B0954E /* Pods-Lazy MiningUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UWSKF3K8YQ;
+				INFOPLIST_FILE = "Lazy MiningUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lazymining.Lazy-MiningUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Lazy Mining";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84472D68204E45010049B182 /* Build configuration list for PBXProject "Lazy Mining" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84472D95204E45020049B182 /* Debug */,
+				84472D96204E45020049B182 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84472D97204E45020049B182 /* Build configuration list for PBXNativeTarget "Lazy Mining" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84472D98204E45020049B182 /* Debug */,
+				84472D99204E45020049B182 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84472D9A204E45020049B182 /* Build configuration list for PBXNativeTarget "Lazy MiningTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84472D9B204E45020049B182 /* Debug */,
+				84472D9C204E45020049B182 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84472D9D204E45020049B182 /* Build configuration list for PBXNativeTarget "Lazy MiningUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84472D9E204E45020049B182 /* Debug */,
+				84472D9F204E45020049B182 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84472D65204E45010049B182 /* Project object */;
+}

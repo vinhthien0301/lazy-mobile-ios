@@ -1,0 +1,10 @@
+//
+//  Production.xcconfig
+//  Lazy Mining
+//
+//  Created by Admin on 6/9/18.
+//  Copyright © 2018 Admin. All rights reserved.
+//
+server_url  = yourdomain.com/api
+protocol    = http
+
