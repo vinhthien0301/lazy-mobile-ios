@@ -5,5 +5,5 @@
 //  Created by Admin on 6/9/18.
 //  Copyright © 2018 Admin. All rights reserved.
 //
-server_url  = yourdomain.com/api
+server_url  = 192.168.1.111:4352/api
 protocol    = http
